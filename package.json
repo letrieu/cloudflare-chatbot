@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app",
+  "name": "cloudflare-chatbot",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,11 +13,14 @@
     "build-cf-types": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
+    "ai": "^3.0.18",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@cloudflare/ai": "^1.1.0",
     "@cloudflare/next-on-pages": "^1.11.0",
     "@cloudflare/workers-types": "^4.20240403.0",
     "@types/node": "^20",

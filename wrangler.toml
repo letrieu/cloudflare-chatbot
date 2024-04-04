@@ -1,6 +1,9 @@
-name = "my-next-app"
+name = "cloudflare-chatbot"
 compatibility_date = "2024-04-03"
 compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
@@ -52,4 +55,3 @@ compatibility_flags = ["nodejs_compat"]
 # [[services]]
 # binding = "MY_SERVICE"
 # service = "my-service"
-
