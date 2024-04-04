@@ -8,7 +8,9 @@ import { Ai } from '@cloudflare/ai'
 export const runtime = 'edge';
 
 export async function POST(req: NextRequest) {
-    const { messages } = await req.json();
+    const resJson: any = await req.json();
+
+    let messages: any =  resJson["messages"];
 
     console.log(messages);
 
