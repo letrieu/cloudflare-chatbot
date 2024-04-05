@@ -4,9 +4,9 @@ An AI chatbot using Cloudflare Worker AI Model and Vercel AI SDK
 
 # Installation guide
 
-1. Clone this project
+1. Fork this project
 2. Go to [https://dash.cloudflare.com](https://dash.cloudflare.com/) > **Workers & Pages > Create Application > Pages**
-3. Connect to cloned project to create **Cloudflare Pages**
+3. Connect to your forked project to create **Cloudflare Pages**
 4. Go to your Page Setting and add **Workers AI Bindings** 
 5. Deploy your project
 
