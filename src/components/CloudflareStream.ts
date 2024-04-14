@@ -2,8 +2,8 @@ import {
     AIStream,
     type AIStreamParser,
     type AIStreamCallbacksAndOptions,
+    formatStreamPart,
 } from 'ai';
-import { jsxDEV } from 'react/jsx-dev-runtime';
 
 function parseCloudflareStream(): AIStreamParser {
     return data => {
@@ -12,7 +12,7 @@ function parseCloudflareStream(): AIStreamParser {
             p: string | null;
         };
         const text = json.response;
-        return text;
+        return formatStreamPart("text", text);
     };
 }
 
