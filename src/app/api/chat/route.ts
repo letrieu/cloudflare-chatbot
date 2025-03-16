@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     let messages: any = resJson["messages"];
 
     const ai = new Ai(getRequestContext().env.AI);
-    const stream = await ai.run("@cf/meta/llama-2-7b-chat-fp16", {
+    const stream = await ai.run("@cf/meta/llama-3-8b-instruct", {
         messages,
         stream: true,
     }) as ReadableStream;
