@@ -15,13 +15,13 @@ An AI chatbot using Cloudflare Worker AI Model and Vercel AI SDK
 Install packages:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Run the application
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 
 **Tech Stack**
@@ -30,7 +30,7 @@ This chatbot is built on the following stack:
 
 - [Cloudflare Pages](https://pages.cloudflare.com) – deployments
 - [Cloudflare Worker AI Model](https://developers.cloudflare.com/workers-ai/models/) - text generation
-- [Next.js](https://nextjs.org/) – framework
+- [OpenNext](https://opennext.js.org/cloudflare) – framework
 - [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI library
 - [TailwindCSS](https://tailwindcss.com/) – styles
-- [DaisyUI](http://daisyui.com) - styles
+- [Kibo UI](http://www.kibo-ui.com) - styles
