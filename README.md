@@ -30,7 +30,7 @@ This chatbot is built on the following stack:
 
 - [Cloudflare Pages](https://pages.cloudflare.com) – deployments
 - [Cloudflare Worker AI Model](https://developers.cloudflare.com/workers-ai/models/) - text generation
-- [OpenNext](https://opennext.js.org/cloudflare) – framework
+- [Next.js](https://nextjs.org/) – framework
 - [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI library
 - [TailwindCSS](https://tailwindcss.com/) – styles
 - [Kibo UI](http://www.kibo-ui.com) - styles
